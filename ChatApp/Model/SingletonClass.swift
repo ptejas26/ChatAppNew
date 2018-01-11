@@ -9,10 +9,13 @@ import UIKit
 
 class SingletonClass: NSObject {
 
+    //Shared instance variable
     static let sharedInstance = SingletonClass()
     
+    //Activity indicator
     var activityIndicator : UIActivityIndicatorView?
     
+    //Device token
     var token : String = ""
     var id : String = ""
     var name : String = ""

@@ -60,7 +60,7 @@ class ChatViewController: UIViewController {
                 self.txtMessage.text = ""
             }
             else{
-                SingletonClass.sharedInstance.showAlertView(title: "Info", message: "Please try sending message again", viewC: self)
+                SingletonClass.sharedInstance.showAlertView(title: "Info", message: "Go ahead and start chatting", viewC: self)
             }
             
         }

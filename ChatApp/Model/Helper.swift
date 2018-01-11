@@ -16,6 +16,5 @@ struct Helper {
         static let userChat = "/chat"
         static let userChatWithExistingUser = "/chat/" //{userID}
     }
-    
 }
 

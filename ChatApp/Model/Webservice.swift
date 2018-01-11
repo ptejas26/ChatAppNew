@@ -11,6 +11,7 @@ import Alamofire
 
 class Webservice: NSObject {
     
+    //Shared Obj of Webservices class 
     static let sharedInstance = Webservice()
     
     func postMethodRequest(_ url : String, param : [String:AnyObject], view: UIView,completionHandler: @escaping (DataResponse<Any>) -> ())

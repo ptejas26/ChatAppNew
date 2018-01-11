@@ -10,6 +10,7 @@ import UIKit
 
 class Models: NSObject {
 
+    //Defines all the model for directly converting through decodable 
     struct Login : Decodable {
         var id : String
         var name : String

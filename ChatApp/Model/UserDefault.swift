@@ -10,6 +10,7 @@ import UIKit
 
 class UserDefault: NSObject {
 
+    //Class defined but not in use. Can be removed 
     func getToken() -> String
     {
         UserDefaults.standard.synchronize()
