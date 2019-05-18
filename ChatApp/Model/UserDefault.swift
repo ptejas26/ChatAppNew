@@ -25,4 +25,10 @@ class UserDefault: NSObject {
         UserDefaults.standard.synchronize()
         UserDefaults.standard.set(token, forKey: "token")
     }
+    func setUserPerference(_ userPreference :String){
+        print("set user preference \(userPreference)")
+    }
+    func getUserPerference() -> String {
+        return "Test"
+    }
 }
