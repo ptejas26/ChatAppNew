@@ -22,6 +22,7 @@
 		A98194C3200685680036B8FE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98194C2200685680036B8FE /* Extensions.swift */; };
 		A98194C820068FC90036B8FE /* UserChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98194C720068FC80036B8FE /* UserChatTableViewCell.swift */; };
 		A9CBF9E020070D9300B014AA /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CBF9DF20070D9300B014AA /* ChatTableViewCell.swift */; };
+		B3550492228FC14B00329481 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3550491228FC14B00329481 /* TestViewController.swift */; };
 		EA73BC18A9FD8201E3319A0F /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64436DDEC7836A8F8F1ED41A /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		A98194C2200685680036B8FE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A98194C720068FC80036B8FE /* UserChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatTableViewCell.swift; sourceTree = "<group>"; };
 		A9CBF9DF20070D9300B014AA /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		B3550491228FC14B00329481 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		E493A334F1D06B9D3FD78121 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 				A98194BA20067CD30036B8FE /* UserListViewController.swift */,
 				A98194BC20067CDF0036B8FE /* ChatViewController.swift */,
 				A98194AA200664640036B8FE /* ViewController.swift */,
+				B3550491228FC14B00329481 /* TestViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				A98194A9200664640036B8FE /* AppDelegate.swift in Sources */,
 				A98194BD20067CDF0036B8FE /* ChatViewController.swift in Sources */,
 				A98194BF20067F120036B8FE /* Webservice.swift in Sources */,
+				B3550492228FC14B00329481 /* TestViewController.swift in Sources */,
 				A920F45020069A74004217B2 /* UserDefault.swift in Sources */,
 				A98194BB20067CD30036B8FE /* UserListViewController.swift in Sources */,
 				A920F4542006A548004217B2 /* SingletonClass.swift in Sources */,
